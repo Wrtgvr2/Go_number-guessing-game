@@ -63,7 +63,7 @@ func chooseDifficulty() {
 			attempts = 10
 			stopLoop = true
 		case 2:
-			attempts = 6
+			attempts = 5
 			stopLoop = true
 		case 3:
 			attempts = 3
