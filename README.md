@@ -6,3 +6,5 @@ There in game 3 difficulty levels:
 - Easy: 10 attempts
 - Medium: 5 attempts
 - Hard: 3 attempts
+---
+The idea of ​​the project was taken from [roadmap.sh](https://roadmap.sh/projects/number-guessing-game)
