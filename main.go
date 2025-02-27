@@ -38,10 +38,13 @@ gameLoop:
 	}
 
 	if playerWon {
-		fmt.Printf("\nCongratulations! You guessed the correct number in %d attempts.\n", currentAttempt)
+		fmt.Printf("\nCongratulations! You guessed the correct number in %d attempts.", currentAttempt)
 	} else {
 		fmt.Printf("\nYou've run out of attempts, better luck next time! Correct number is %d", ranNumber)
 	}
+	fmt.Println("\nPress Enter to exit...")
+	fmt.Scanln()
+	fmt.Scanln()
 }
 
 func gameInit() {
@@ -56,7 +59,6 @@ func chooseDifficulty() {
 	for !stopLoop {
 		fmt.Print("Please select the difficulty level:\n1. Easy (10 chances)\n2. Medium (5 chances\n3. Hard (3 chances)\nDifficulty: ")
 		fmt.Scanln(&diff)
-		fmt.Println()
 
 		switch diff {
 		case 1:
